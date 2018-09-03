@@ -42,6 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\AudiCar.cs" />
+    <Compile Include="AbstractFactory\AudiConcreteFactory.cs" />
+    <Compile Include="AbstractFactory\BmwCar.cs" />
+    <Compile Include="AbstractFactory\BmwConcreteFactory.cs" />
+    <Compile Include="AbstractFactory\CarShop.cs" />
+    <Compile Include="AbstractFactory\ICar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
